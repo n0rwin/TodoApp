@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Api", "TodoApp.Api\TodoApp.Api.csproj", "{84ED6808-D832-4CDF-9131-C40BD0BED274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Model", "TodoApp.Model\TodoApp.Model.csproj", "{06360553-D7A2-4043-A4F1-A3AB43CF3CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Domain", "TodoApp.Domain\TodoApp.Domain.csproj", "{7B653F10-0BFA-4770-9D11-7888712C4224}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84ED6808-D832-4CDF-9131-C40BD0BED274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84ED6808-D832-4CDF-9131-C40BD0BED274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84ED6808-D832-4CDF-9131-C40BD0BED274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84ED6808-D832-4CDF-9131-C40BD0BED274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06360553-D7A2-4043-A4F1-A3AB43CF3CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06360553-D7A2-4043-A4F1-A3AB43CF3CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06360553-D7A2-4043-A4F1-A3AB43CF3CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06360553-D7A2-4043-A4F1-A3AB43CF3CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B653F10-0BFA-4770-9D11-7888712C4224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B653F10-0BFA-4770-9D11-7888712C4224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B653F10-0BFA-4770-9D11-7888712C4224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B653F10-0BFA-4770-9D11-7888712C4224}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
