@@ -1,5 +1,9 @@
 using Microsoft.EntityFrameworkCore;
+using TodoApp.Domain.Implementations;
+using TodoApp.Domain.Interfaces;
+using TodoApp.Domain.Mapping;
 using TodoApp.Model.Configuration;
+using TodoApp.Model.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,11 +14,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddAutoMapper(typeof(TodoMapperProfile));
+
 builder.Services.AddDbContextFactory<TodoDbContext>(
     options => options.UseNpgsql(
         builder.Configuration.GetConnectionString("DefaultConnection")
     )
 );
+
+builder.Services.AddScoped<IRepository<Todo>, TodoRepository>();
 
 var app = builder.Build();
 
